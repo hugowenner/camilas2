@@ -73,7 +73,7 @@ export default function Chapter4Travels() {
           <div className="relative grid grid-cols-1 gap-16 py-12 sm:grid-cols-2 sm:gap-24">
             {destinations.map((stop, i) => (
               <motion.div
-                key={stop.name + i}
+                key={stop.label + i}
                 initial={{ opacity: 0, y: 40, scale: 0.9 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true, amount: 0.4 }}

@@ -5,6 +5,7 @@ import Chapter1Encounter from './sections/Chapter1Encounter'
 import Chapter2Beginning from './sections/Chapter2Beginning'
 import Chapter3Memories from './sections/Chapter3Memories'
 import Chapter4Travels from './sections/Chapter4Travels'
+import ChapterMemoryAlbum from './sections/ChapterMemoryAlbum'
 import ChapterCompanion from './sections/ChapterCompanion'
 import Chapter5Present from './sections/Chapter5Present'
 import Chapter6Surprise from './sections/Chapter6Surprise'
@@ -58,6 +59,7 @@ export default function App() {
         <Chapter2Beginning />
         <Chapter3Memories />
         <Chapter4Travels />
+        <ChapterMemoryAlbum />
         <ChapterCompanion />
         <Chapter5Present />
         <Chapter6Surprise />

@@ -127,6 +127,22 @@ export const config = {
     },
   },
 
+  // ── CAPÍTULO 4.5 — PEQUENOS MOMENTOS (ÁLBUM DE MEMÓRIAS) ──────
+  // 👉 Fotos carregadas automaticamente de /public/photos/foto01.jpeg até foto29.jpeg
+  memoryAlbum: {
+    title: 'Pequenos momentos',
+    intro: [
+      'Nem toda memória precisa de uma data marcada no calendário.',
+      'Algumas simplesmente aconteceram — e ficaram.',
+    ],
+    photoCount: 29,
+    captions: [
+      'Entre uma viagem e outra...',
+      'risadas que ninguém planejou.',
+      'Dias comuns que, olhando agora, não eram tão comuns assim.',
+    ],
+  },
+
   // ── CAPÍTULO 5 — O PRESENTE ────────────────────────────────────
   present: {
     lines: [
