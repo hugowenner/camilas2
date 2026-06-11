@@ -8,6 +8,8 @@
  * Fotos: coloque os arquivos em /public/photos/ e referencie como
  * "/photos/nome-do-arquivo.jpg". Deixe `src: ''` para manter o placeholder.
  */
+const BASE = import.meta.env.BASE_URL
+
 export const config = {
   // ── IDENTIDADE ────────────────────────────────────────────────
   partnerName: 'Camila',
