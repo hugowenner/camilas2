@@ -4,7 +4,11 @@
       "Bash(npm run *)",
       "mcp__Claude_Preview__preview_start",
       "mcp__540eead1-c6d3-44d8-a3cb-d6529ac39ca0__deploy_to_vercel",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "WebFetch(domain:hugowenner.github.io)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }

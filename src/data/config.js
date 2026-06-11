@@ -80,17 +80,17 @@ export const config = {
       'E sem perceber...',
       'Você começou a ocupar um espaço enorme no meu coração.',
     ],
-    petIntro: 'E nesses dias, alguém pequeno já caminhava ao nosso lado.',
+    petIntro: 'Quando nossas histórias se cruzaram, percebi que você não vinha sozinha. E, aos poucos, a Maggie também conquistou um lugar no meu coração.',
   },
 
   // ── CAPÍTULO 4.5 — QUEM CAMINHOU CONOSCO (MAGGIE) ─────────────
   companion: {
     lines: [
-      'Antes mesmo de sabermos como nossa história continuaria...',
-      'já existia alguém tornando nossos dias mais felizes.',
-      'A Maggie esteve presente em risadas, viagens, descansos e momentos simples.',
+      'A Maggie já fazia parte da sua história muito antes de mim.',
+      'Esteve presente em risadas, viagens, descansos e momentos simples.',
+      'Quando cheguei, ela já estava lá.',
       'E sem perceber...',
-      'ela também se tornou parte da nossa família.',
+      'também passou a fazer parte da minha história.',
     ],
   },
 
@@ -183,7 +183,7 @@ export const config = {
   final: {
     lines: [
       'Nossa história começou com dois caminhos se cruzando.',
-      'Hoje ela continua com três corações caminhando juntos.',
+      'Hoje ela segue cercada por tudo aquilo que a tornou especial — e por tudo que ainda está por vir.',
     ],
     closing: ['De todas as aventuras que vivemos...', 'A próxima será a mais incrível de todas.'],
     newChapter: 'Fim de um capítulo. Início de uma nova vida.',
