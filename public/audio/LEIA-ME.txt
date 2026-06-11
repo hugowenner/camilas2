@@ -1,0 +1,4 @@
+Coloque aqui a música de fundo com o nome "musica.mp3"
+(ou ajuste o caminho em src/components/MusicPlayer.jsx).
+
+Depois, descomente <MusicPlayer /> em src/App.jsx para ativar o player.

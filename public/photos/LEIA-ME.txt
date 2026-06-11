@@ -1,0 +1,12 @@
+Coloque aqui as fotos do casal.
+
+Sugestão de nomes (e depois ajuste o `src` em PhotoPlaceholder nas seções):
+- encontro.jpg
+- comeco.jpg
+- viagem-1.jpg / viagem-2.jpg / viagem-3.jpg / viagem-4.jpg
+- presente-1.jpg / presente-2.jpg / presente-3.jpg
+- teste-positivo.jpg
+- ultrassom.jpg
+
+Exemplo de uso em um componente:
+<PhotoPlaceholder src="/photos/encontro.jpg" alt="Nosso primeiro encontro" />
