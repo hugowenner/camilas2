@@ -19,7 +19,7 @@ export const config = {
 
   // ── TRILHA SONORA ─────────────────────────────────────────────
   // 👉 Coloque o arquivo em /public/audio/musica.mp3
-  musicFile: '/audio/musica.mp3',
+  musicFile: BASE + 'audio/musica.mp3',
   musicTitle: 'Nossa trilha',
 
   // ── NOSSA CACHORRA ────────────────────────────────────────────
@@ -30,9 +30,9 @@ export const config = {
     age: 9,
     description: 'Nossa companheira de aventuras',
     photos: [
-      { src: '', alt: 'Maggie em um passeio', label: 'Foto: Maggie em um passeio' },
-      { src: '', alt: 'Maggie em uma viagem com a gente', label: 'Foto: Maggie em uma viagem' },
-      { src: '', alt: 'Maggie em um momento de descanso em família', label: 'Foto: Maggie em família' },
+      { src: BASE + 'photos/maggie1.jpeg', alt: 'Maggie em um passeio', label: 'Foto: Maggie em um passeio' },
+      { src: BASE + 'photos/maggie2.jpeg', alt: 'Maggie em uma viagem com a gente', label: 'Foto: Maggie em uma viagem' },
+      { src: BASE + 'photos/maggie3.jpeg', alt: 'Maggie em um momento de descanso em família', label: 'Foto: Maggie em família' },
     ],
   },
 
@@ -45,7 +45,7 @@ export const config = {
       'Eu encontrei você.',
     ],
     photo: {
-      src: '',
+      src: BASE + 'photos/eueelaviajem1.jpeg',
       alt: 'Nosso primeiro encontro',
       label: 'Foto: nosso primeiro encontro',
       caption: 'Outubro de 2023',
@@ -62,7 +62,7 @@ export const config = {
       '...mas uma das pessoas mais importantes da minha vida acabava de chegar.',
     ],
     photo: {
-      src: '',
+      src: BASE + 'photos/euelaviajem2.jpeg',
       alt: 'O começo da nossa história',
       label: 'Foto: outubro de 2023',
       caption: 'O começo',
@@ -100,25 +100,25 @@ export const config = {
         name: 'Nome do destino 1',
         date: 'Mês / 2024',
         label: 'Cada estrada.',
-        photo: { src: '', alt: 'Foto: uma estrada percorrida juntos', label: 'Foto: uma estrada percorrida juntos' },
+        photo: { src: BASE + 'photos/asaaviao.jpeg', alt: 'Foto: uma estrada percorrida juntos', label: 'Foto: uma estrada percorrida juntos' },
       },
       {
         name: 'Nome do destino 2',
         date: 'Mês / 2024',
         label: 'Cada passeio.',
-        photo: { src: '', alt: 'Foto: um passeio inesquecível', label: 'Foto: um passeio inesquecível' },
+        photo: { src: BASE + 'photos/passeio.jpeg', alt: 'Foto: um passeio inesquecível', label: 'Foto: um passeio inesquecível' },
       },
       {
         name: 'Nome do destino 3',
         date: 'Mês / 2025',
         label: 'Cada descoberta.',
-        photo: { src: '', alt: 'Foto: uma nova descoberta', label: 'Foto: uma nova descoberta' },
+        photo: { src: BASE + 'photos/carnaval-passeio.jpeg', alt: 'Foto: uma nova descoberta', label: 'Foto: uma nova descoberta' },
       },
       {
         name: 'Nome do destino 4',
         date: 'Mês / 2025',
         label: 'Cada risada.',
-        photo: { src: '', alt: 'Foto: um momento de riso', label: 'Foto: um momento de riso' },
+        photo: { src: BASE + 'photos/euelarestaurante.jpeg', alt: 'Foto: um momento de riso', label: 'Foto: um momento de riso' },
       },
     ],
     highlight: {
@@ -139,9 +139,9 @@ export const config = {
       'Construímos uma história.',
     ],
     photos: [
-      { src: '', alt: 'Foto recente 1', label: 'Foto recente' },
-      { src: '', alt: 'Foto recente 2', label: 'Foto recente' },
-      { src: '', alt: 'Foto recente 3', label: 'Foto recente' },
+      { src: BASE + 'photos/euelaviajem3.jpeg', alt: 'Foto recente 1', label: 'Foto recente' },
+      { src: BASE + 'photos/euelaviajem4.jpeg', alt: 'Foto recente 2', label: 'Foto recente' },
+      { src: BASE + 'photos/euelaviajem5.jpeg', alt: 'Foto recente 3', label: 'Foto recente' },
     ],
     closing: [
       'Nem todos os dias foram perfeitos.',
@@ -160,8 +160,8 @@ export const config = {
     reveal: 'Agora existe um novo coração fazendo parte da nossa jornada.',
     familyGrowing: 'Agora nossa família está prestes a ganhar mais um coração.',
     photos: {
-      positiveTest: { src: '', alt: 'Foto do teste positivo', label: 'Foto: o teste positivo' },
-      ultrasound: { src: '', alt: 'Foto do ultrassom', label: 'Foto: o ultrassom' },
+      positiveTest: { src: BASE + 'photos/examegravidez.jpeg', alt: 'Foto do teste positivo', label: 'Foto: o teste positivo' },
+      ultrasound: { src: BASE + 'photos/euelaviajem6.jpeg', alt: 'Foto do ultrassom', label: 'Foto: o ultrassom' },
     },
   },
 
