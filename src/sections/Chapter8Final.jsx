@@ -41,7 +41,7 @@ export default function Chapter8Final({ climax = false }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 1.2, delay: i * 0.6, ease: 'easeOut' }}
-              className="font-display text-2xl font-light italic text-cream/80 sm:text-3xl"
+              className="font-display text-2xl font-medium italic text-cream/80 sm:text-3xl"
             >
               {line}
             </motion.p>
@@ -61,8 +61,8 @@ export default function Chapter8Final({ climax = false }) {
               transition={{ duration: 1.2, delay: i * 0.6, ease: 'easeOut' }}
               className={
                 i === closing.length - 1
-                  ? 'font-display text-2xl font-light italic text-gold sm:text-3xl'
-                  : 'font-display text-xl font-light text-cream/70 sm:text-2xl'
+                  ? 'font-display text-2xl font-bold italic text-gold sm:text-3xl'
+                  : 'font-display text-xl font-semibold text-cream/70 sm:text-2xl'
               }
             >
               {line}
@@ -75,7 +75,7 @@ export default function Chapter8Final({ climax = false }) {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1.6, delay: 0.4, ease: 'easeOut' }}
-          className="mt-8 bg-gradient-to-r from-gold via-cream to-blush bg-clip-text font-display text-4xl font-medium text-transparent sm:text-6xl"
+          className="mt-8 bg-gradient-to-r from-gold via-cream to-blush bg-clip-text font-display text-4xl font-bold text-transparent sm:text-6xl"
         >
           Eu amo você, {config.partnerName}.
         </motion.p>
@@ -85,7 +85,7 @@ export default function Chapter8Final({ climax = false }) {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1.4, delay: 1, ease: 'easeOut' }}
-          className="flex items-center justify-center gap-3 font-display text-3xl font-light text-cream sm:text-4xl"
+          className="flex items-center justify-center gap-3 font-display text-3xl font-semibold text-cream sm:text-4xl"
         >
           Feliz Dia dos Namorados
           <svg viewBox="0 0 32 29" className="h-5 w-5 sm:h-6 sm:w-6" aria-hidden="true">

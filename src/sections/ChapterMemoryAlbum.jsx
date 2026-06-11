@@ -56,7 +56,7 @@ export default function ChapterMemoryAlbum() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1, ease: 'easeOut' }}
-          className="mb-6 font-display text-3xl font-light italic text-gold sm:text-4xl md:text-5xl"
+          className="mb-6 font-display text-3xl font-bold italic text-gold sm:text-4xl md:text-5xl"
         >
           {title}
         </motion.p>
@@ -83,7 +83,7 @@ export default function ChapterMemoryAlbum() {
                 whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
                 viewport={{ once: true, amount: 0.6 }}
                 transition={{ duration: 1.2, ease: 'easeOut' }}
-                className="my-12 text-center font-display text-xl italic text-cream/60 sm:text-2xl md:my-16 md:text-3xl"
+                className="my-12 text-center font-display text-xl font-medium italic text-cream/60 sm:text-2xl md:my-16 md:text-3xl"
               >
                 {captions[g]}
               </motion.p>

@@ -98,7 +98,7 @@ export default function Chapter6Surprise() {
           whileInView={{ opacity: 1, y: 0, scale: 1, filter: 'blur(0px)' }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 2.2, delay: 1.6, ease: 'easeOut' }}
-          className="bg-gradient-to-r from-gold via-cream to-blush bg-clip-text font-display text-3xl font-light italic text-transparent drop-shadow-[0_0_25px_rgba(232,180,184,0.35)] sm:text-4xl md:text-5xl"
+          className="bg-gradient-to-r from-gold via-cream to-blush bg-clip-text font-display text-3xl font-bold italic text-transparent drop-shadow-[0_0_25px_rgba(232,180,184,0.35)] sm:text-4xl md:text-5xl"
         >
           {reveal}
         </motion.p>
@@ -108,7 +108,7 @@ export default function Chapter6Surprise() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1.4, delay: 2, ease: 'easeOut' }}
-          className="font-display text-lg italic text-cream/60 sm:text-xl"
+          className="font-display text-lg font-medium italic text-cream/60 sm:text-xl"
         >
           {familyGrowing}
         </motion.p>

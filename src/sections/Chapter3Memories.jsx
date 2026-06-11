@@ -34,7 +34,7 @@ export default function Chapter3Memories() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1.2, delay: 0.3, ease: 'easeOut' }}
-          className="font-display text-lg italic text-cream/60 sm:text-xl"
+          className="font-display text-lg font-medium italic text-cream/60 sm:text-xl"
         >
           {petIntro}
         </motion.p>

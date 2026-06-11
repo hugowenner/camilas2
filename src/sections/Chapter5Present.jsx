@@ -50,7 +50,7 @@ export default function Chapter5Present() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.6 }}
             transition={{ duration: 1, ease: 'easeOut' }}
-            className="font-display text-2xl font-light text-cream/70 sm:text-3xl"
+            className="font-display text-2xl font-semibold text-cream/70 sm:text-3xl"
           >
             {closing[0]}
           </motion.p>
@@ -59,7 +59,7 @@ export default function Chapter5Present() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.6 }}
             transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}
-            className="mt-4 font-display text-3xl font-light italic text-gold sm:text-4xl"
+            className="mt-4 font-display text-3xl font-semibold italic text-gold sm:text-4xl"
           >
             {closing[1]}
           </motion.p>

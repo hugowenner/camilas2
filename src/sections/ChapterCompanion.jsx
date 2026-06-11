@@ -44,7 +44,7 @@ export default function ChapterCompanion() {
         ))}
       </div>
 
-      <p className="relative z-10 max-w-md text-center font-display text-base italic text-gold/70 sm:text-lg">
+      <p className="relative z-10 max-w-md text-center font-display text-base font-medium italic text-gold/70 sm:text-lg">
         {description}
       </p>
     </section>

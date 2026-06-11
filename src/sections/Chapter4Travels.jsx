@@ -24,7 +24,7 @@ export default function Chapter4Travels() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1, ease: 'easeOut' }}
-          className="font-display text-3xl font-light italic text-cream sm:text-4xl"
+          className="font-display text-3xl font-semibold italic text-cream sm:text-4xl"
         >
           {intro[0]}
         </motion.p>
@@ -33,7 +33,7 @@ export default function Chapter4Travels() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1, delay: 0.4, ease: 'easeOut' }}
-          className="mt-4 font-display text-3xl font-light text-gold sm:text-4xl"
+          className="mt-4 font-display text-3xl font-semibold text-gold sm:text-4xl"
         >
           {intro[1]}
         </motion.p>
@@ -113,7 +113,7 @@ export default function Chapter4Travels() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1.2, ease: 'easeOut' }}
-          className="font-display text-2xl font-light leading-relaxed text-cream/70 sm:text-3xl"
+          className="font-display text-2xl font-semibold leading-relaxed text-cream/70 sm:text-3xl"
         >
           {highlight.before}
         </motion.p>
@@ -125,7 +125,7 @@ export default function Chapter4Travels() {
           transition={{ duration: 1.6, delay: 0.6, ease: 'easeOut' }}
           className="mt-10"
         >
-          <p className="font-display text-3xl font-light leading-snug text-cream sm:text-5xl">
+          <p className="font-display text-3xl font-semibold leading-snug text-cream sm:text-5xl">
             {highlight.lead}
             <br /> {highlight.leadBreak}
           </p>
@@ -136,7 +136,7 @@ export default function Chapter4Travels() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1.6, delay: 1.6, ease: 'easeOut' }}
-          className="bg-gradient-to-r from-gold via-cream to-blush bg-clip-text font-display text-4xl font-medium italic text-transparent sm:text-6xl"
+          className="bg-gradient-to-r from-gold via-cream to-blush bg-clip-text font-display text-4xl font-bold italic text-transparent sm:text-6xl"
         >
           {highlight.final}
         </motion.p>

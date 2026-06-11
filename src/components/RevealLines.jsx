@@ -9,9 +9,9 @@ import { motion } from 'framer-motion'
  */
 export default function RevealLines({ lines, variant = 'serif-lg', align = 'center', gap = 'gap-6' }) {
   const variants = {
-    'serif-lg': 'font-display text-2xl sm:text-3xl md:text-4xl font-light leading-relaxed',
-    'serif-xl': 'font-display text-4xl sm:text-5xl md:text-7xl font-light leading-tight',
-    body: 'font-sans text-base sm:text-lg font-light leading-relaxed text-cream/80',
+    'serif-lg': 'font-display text-2xl sm:text-3xl md:text-4xl font-medium leading-relaxed',
+    'serif-xl': 'font-display text-4xl sm:text-5xl md:text-7xl font-bold leading-tight',
+    body: 'font-sans text-base sm:text-lg font-medium leading-relaxed text-cream/80',
   }
 
   const alignments = {

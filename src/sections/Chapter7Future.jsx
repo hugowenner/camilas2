@@ -25,7 +25,7 @@ export default function Chapter7Future() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.6 }}
               transition={{ duration: 1, delay: i * 0.4, ease: 'easeOut' }}
-              className="font-display text-xl font-light italic text-cream/60 sm:text-2xl"
+              className="font-display text-xl font-medium italic text-cream/60 sm:text-2xl"
             >
               {line}
             </motion.p>
@@ -37,7 +37,7 @@ export default function Chapter7Future() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1.2, delay: 1.8, ease: 'easeOut' }}
-          className="mt-12 font-display text-2xl font-light text-cream sm:text-3xl"
+          className="mt-12 font-display text-2xl font-semibold text-cream sm:text-3xl"
         >
           {certainty}
         </motion.p>
@@ -48,7 +48,7 @@ export default function Chapter7Future() {
           whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 2, delay: 0.3, ease: 'easeOut' }}
-          className="mt-12 bg-gradient-to-r from-gold via-cream to-blush bg-clip-text font-display text-4xl font-medium leading-tight text-transparent sm:text-6xl md:text-7xl"
+          className="mt-12 bg-gradient-to-r from-gold via-cream to-blush bg-clip-text font-display text-4xl font-bold leading-tight text-transparent sm:text-6xl md:text-7xl"
         >
           {final[0]}
           <br /> {final[1]}

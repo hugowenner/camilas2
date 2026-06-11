@@ -33,7 +33,7 @@ export default function Chapter2Beginning() {
                 className="relative"
               >
                 <span className="absolute -left-8 top-2 h-3 w-3 rounded-full bg-gradient-to-br from-cream to-gold animate-glowPulse" />
-                <p className="font-display text-2xl font-light leading-relaxed text-cream sm:text-3xl">
+                <p className="font-display text-2xl font-semibold leading-relaxed text-cream sm:text-3xl">
                   {line}
                 </p>
               </motion.div>
