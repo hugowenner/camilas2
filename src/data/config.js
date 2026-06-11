@@ -99,25 +99,21 @@ export const config = {
     intro: ['Colecionamos quilômetros.', 'Mas o mais importante foram as memórias.'],
     destinations: [
       {
-        name: 'Nome do destino 1',
         date: 'Mês / 2024',
         label: 'Cada estrada.',
         photo: { src: BASE + 'photos/asaaviao.jpeg', alt: 'Foto: uma estrada percorrida juntos', label: 'Foto: uma estrada percorrida juntos' },
       },
       {
-        name: 'Nome do destino 2',
         date: 'Mês / 2024',
         label: 'Cada passeio.',
         photo: { src: BASE + 'photos/passeio.jpeg', alt: 'Foto: um passeio inesquecível', label: 'Foto: um passeio inesquecível' },
       },
       {
-        name: 'Nome do destino 3',
         date: 'Mês / 2025',
         label: 'Cada descoberta.',
         photo: { src: BASE + 'photos/carnaval-passeio.jpeg', alt: 'Foto: uma nova descoberta', label: 'Foto: uma nova descoberta' },
       },
       {
-        name: 'Nome do destino 4',
         date: 'Mês / 2025',
         label: 'Cada risada.',
         photo: { src: BASE + 'photos/euelarestaurante.jpeg', alt: 'Foto: um momento de riso', label: 'Foto: um momento de riso' },

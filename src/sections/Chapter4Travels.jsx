@@ -98,9 +98,6 @@ export default function Chapter4Travels() {
                 />
 
                 <div className="flex flex-col items-center gap-1 text-center">
-                  <span className="font-display text-lg text-cream/90 sm:text-xl">
-                    {stop.name}
-                  </span>
                   <span className="font-display text-xl italic text-cream/60">{stop.label}</span>
                 </div>
               </motion.div>
