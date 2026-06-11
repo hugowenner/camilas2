@@ -24,7 +24,7 @@ export default function RevealLines({ lines, variant = 'serif-lg', align = 'cent
       {lines.map((line, i) => (
         <motion.p
           key={i}
-          initial={{ opacity: 0, y: 30, filter: 'blur(6px)' }}
+          initial={{ opacity: 0, y: 30, filter: 'blur(4px)' }}
           whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1, delay: i * 0.35, ease: 'easeOut' }}

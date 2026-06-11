@@ -18,10 +18,11 @@ export default function PhotoPlaceholder({
   caption,
   className = '',
   tilt = 0,
+  priority = false,
 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 28, scale: 1.05, rotate: tilt * 2.2, filter: 'blur(10px)' }}
+      initial={{ opacity: 0, y: 28, scale: 1.05, rotate: tilt * 2.2, filter: 'blur(5px)' }}
       whileInView={{ opacity: 1, y: 0, scale: 1, rotate: tilt, filter: 'blur(0px)' }}
       whileHover={{ rotate: 0, scale: 1.015 }}
       viewport={{ once: true, amount: 0.4 }}
@@ -42,12 +43,15 @@ export default function PhotoPlaceholder({
       />
 
       {/* Moldura estilo polaroid */}
-      <div className="relative flex h-full flex-col gap-3 rounded-2xl border border-cream/15 bg-gradient-to-b from-white/[0.07] to-white/[0.02] p-3 shadow-[0_30px_90px_-25px_rgba(0,0,0,0.85),0_0_60px_-20px_rgba(212,175,122,0.18)] backdrop-blur-sm transition-shadow duration-700 group-hover:shadow-[0_30px_100px_-20px_rgba(0,0,0,0.9),0_0_80px_-15px_rgba(232,180,184,0.22)] sm:p-4">
+      <div className="relative flex h-full flex-col gap-3 rounded-2xl border border-cream/15 bg-gradient-to-b from-white/[0.09] to-white/[0.03] p-3 shadow-[0_30px_90px_-25px_rgba(0,0,0,0.85),0_0_60px_-20px_rgba(212,175,122,0.18)] transition-shadow duration-700 group-hover:shadow-[0_30px_100px_-20px_rgba(0,0,0,0.9),0_0_80px_-15px_rgba(232,180,184,0.22)] sm:p-4">
         <div className="relative flex-1 overflow-hidden rounded-xl">
           {src ? (
             <motion.img
               src={src}
               alt={alt}
+              loading={priority ? 'eager' : 'lazy'}
+              decoding="async"
+              fetchpriority={priority ? 'high' : 'auto'}
               initial={{ scale: 1.08 }}
               whileInView={{ scale: 1 }}
               viewport={{ once: true, amount: 0.4 }}

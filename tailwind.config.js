@@ -27,8 +27,8 @@ export default {
           '100%': { transform: 'translate(0, 0)' },
         },
         glowPulse: {
-          '0%, 100%': { filter: 'drop-shadow(0 0 6px rgba(212,175,122,0.6))' },
-          '50%': { filter: 'drop-shadow(0 0 18px rgba(212,175,122,0.95))' },
+          '0%, 100%': { filter: 'drop-shadow(0 0 4px rgba(212,175,122,0.6))' },
+          '50%': { filter: 'drop-shadow(0 0 10px rgba(212,175,122,0.95))' },
         },
         floatHeart: {
           '0%': { transform: 'translateY(0) rotate(0deg)', opacity: '0' },

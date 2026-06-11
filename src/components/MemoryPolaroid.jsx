@@ -12,7 +12,7 @@ export default function MemoryPolaroid({ src, alt, index = 0, className = '' }) 
 
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.92, rotate: tilt * 2.4, filter: 'blur(8px)' }}
+      initial={{ opacity: 0, scale: 0.92, rotate: tilt * 2.4, filter: 'blur(4px)' }}
       whileInView={{ opacity: 1, scale: 1, rotate: tilt, filter: 'blur(0px)' }}
       whileHover={{ rotate: 0, scale: 1.03 }}
       viewport={{ once: true, amount: 0.3 }}

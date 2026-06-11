@@ -94,7 +94,7 @@ export default function Chapter6Surprise() {
         </div>
 
         <motion.p
-          initial={{ opacity: 0, y: 24, scale: 0.96, filter: 'blur(6px)' }}
+          initial={{ opacity: 0, y: 24, scale: 0.96, filter: 'blur(4px)' }}
           whileInView={{ opacity: 1, y: 0, scale: 1, filter: 'blur(0px)' }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 2.2, delay: 1.6, ease: 'easeOut' }}

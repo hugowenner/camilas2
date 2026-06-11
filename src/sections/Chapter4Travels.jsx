@@ -119,7 +119,7 @@ export default function Chapter4Travels() {
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.6, filter: 'blur(10px)' }}
+          initial={{ opacity: 0, scale: 0.6, filter: 'blur(5px)' }}
           whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 1.6, delay: 0.6, ease: 'easeOut' }}

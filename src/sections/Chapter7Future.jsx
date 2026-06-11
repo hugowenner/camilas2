@@ -44,7 +44,7 @@ export default function Chapter7Future() {
 
         {/* Frase em tela cheia */}
         <motion.p
-          initial={{ opacity: 0, scale: 0.85, filter: 'blur(12px)' }}
+          initial={{ opacity: 0, scale: 0.85, filter: 'blur(6px)' }}
           whileInView={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 2, delay: 0.3, ease: 'easeOut' }}

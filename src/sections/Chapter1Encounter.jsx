@@ -44,6 +44,7 @@ export default function Chapter1Encounter() {
             label={photo.label}
             caption={photo.caption}
             className="aspect-[4/5]"
+            priority
           />
         </motion.div>
 
